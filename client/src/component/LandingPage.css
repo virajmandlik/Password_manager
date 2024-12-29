@@ -1,0 +1,97 @@
+.hero-section {
+  background: linear-gradient(45deg, #6c757d, #343a40);
+  color: white;
+  padding: 80px 0;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+}
+
+.about-us, .contact-us {
+  padding: 50px 0;
+}
+
+.about-us h2, .contact-us h2 {
+  font-size: 2.5rem;
+  color: #007bff;
+}
+
+.contact-us form {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-us input,
+.contact-us textarea {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.contact-us button {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+      font-size: 2.5rem;
+  }
+}
+
+
+.contact-us {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.contact-us h2 {
+  font-size: 2.5rem;
+  color: #007bff;
+  margin-bottom: 40px;
+}
+
+.contact-us .form-row {
+  margin-bottom: 20px;
+}
+
+.contact-us .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 12px;
+  font-size: 1.1rem;
+}
+
+.contact-us .form-group label {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.contact-us button {
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  border-radius: 8px;
+}
+
+.contact-us .img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .contact-us .row {
+    flex-direction: column;
+  }
+}
+

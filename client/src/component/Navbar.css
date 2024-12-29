@@ -1,0 +1,41 @@
+/* Navbar styling */
+.navbar {
+    width: 100%; /* Full width of the viewport */
+    height: 60px; /* Keep the height constant */
+    position: fixed; /* Fix the position at the top of the page */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure it stays above other content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    background-color:transparent; /* Ensure background is visible and matches theme */
+}
+
+.navbar-collapse {
+    justify-content: flex-end; /* Align links to the right */
+}
+
+.nav-link {
+    color: white !important; /* Ensure the link text is always white */
+    margin: 0 10px; /* Add spacing between links */
+    font-size: 16px; /* Adjust text size */
+    text-decoration: none; /* Remove default underline */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+    cursor: pointer; /* Change cursor to hand pointer */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #ffc107 !important; /* Optional: Change color on hover for visibility */
+}
+
+.navbar-brand {
+    font-size: 20px; /* Adjust brand font size */
+    font-weight: bold; /* Make brand text bold */
+    color: white !important; /* Keep brand color consistent */
+    text-decoration: none;
+}
+
+.navbar-brand:hover {
+    color: #ffc107 !important; /* Optional: Brand hover effect */
+    text-decoration: none; /* Prevent underline on brand hover */
+}
